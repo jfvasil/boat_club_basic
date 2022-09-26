@@ -1,0 +1,4 @@
+if (self.CavalryLogger) { CavalryLogger.start_js_script(document.currentScript); }/*FB_PKG_DELIM*/
+
+__d("getImageSourceURLFromImageish",[],function(a,b,c,d,e,f){"use strict";function a(a){if(typeof a==="string")return a;return a!=null&&typeof a==="object"&&(!a.sprited&&a.uri&&typeof a.uri==="string")?a.uri:""}f["default"]=a},66,typeof self!=="undefined"&&self.document&&self.document.currentScript);
+__d("validateImageSrcPropType",["URI","coerceImageishSprited","getImageSourceURLFromImageish"],function(a,b,c,d,e,f,g){"use strict";function a(a,b,d){a=a[b];return a==null||c("coerceImageishSprited")(a)||c("getImageSourceURLFromImageish")(a)!==""||a instanceof c("URI")?null:new Error("Provided `"+b+"` to `"+d+"`. Must be `null`, `undefined`, a string, a `URI` or an `ix` call.")}g["default"]=a},98,typeof self!=="undefined"&&self.document&&self.document.currentScript);
